@@ -31,9 +31,10 @@ c.fill_polygon(400,230,520,230,460,320,"white")
 
 #car move
 for i in range(0,100,10):
+    backgroung()
     car_drawing(i,400)
     car.sleep(30)
-    background()
+    
 
 car_drawing()
 
